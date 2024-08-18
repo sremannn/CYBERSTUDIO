@@ -6,11 +6,11 @@ body{
     font-family: "Major Mono Display", monospace;
 }
 
-h1{
+.marquee{
     color: white;
     font-size: 14px;
-    text-align: center;
-    overflow: hidden;
+    font-style: normal;
+    font-weight: bold;
 }
 
 h2{
