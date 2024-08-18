@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+body{
+    scroll-behavior: smooth;
+    background-color: black;
+    font-family: "Major Mono Display", monospace;
+}
+
+h1{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 34px;
+}
+
+h4{
+    color: white;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    letter-spacing: 3px;
+    letter-spacing: .3px;
+    letter-spacing: normal;
+    letter-spacing: inherit;
+    letter-spacing: initial;
+    letter-spacing: unset;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+}
+  
+@-moz-keyframes my-animation{
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); }
+}
+  
+@-webkit-keyframes my-animation{
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+}
+  
+@keyframes my-animation{
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+}
