@@ -3,4 +3,4 @@
     setTimeout(function () {
         titleScroller(text.substr(1) + text.substr(0, 1));
     }, 700);
-}(" CYBER STUDI0 // "));
+}(" SPEEDGG // "));
